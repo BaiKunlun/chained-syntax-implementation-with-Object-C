@@ -1,0 +1,15 @@
+//
+//  ClassB.h
+//  demo
+//
+//  Created by BKL on 2017/4/16.
+//  Copyright © 2017年 BKL. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+@interface window : NSObject
+@property (nonatomic, strong) UIColor *color;
+@property (nonatomic, readonly) window *(^drawColor)(UIColor *color);
+@end
